@@ -1,0 +1,13 @@
+:root {
+	--pink: #DF00FF;
+	--lavender: #BF00FF;
+	--purple: #8A00FF;
+	--black: #000000;
+	--gray: #1C1C1C;
+	--lightgray: #9C9CBC;
+	--white: #FFFFFF;
+}
+body {
+	margin: 0px;
+	background-color: var(--black);
+}

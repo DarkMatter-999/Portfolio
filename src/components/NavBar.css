@@ -1,0 +1,30 @@
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	justify-content: flex-end;
+	color: var(--white);
+	background-color: var(--gray);
+}
+
+.navbar a, a:visited {
+	padding: 15px;
+	color: var(--white);
+	font-size: 25px;
+}
+
+.navbar a:hover {
+	border-radius: 15px;
+	transition-duration: 0.15s;
+	background-color: var(--lightgray);
+}
+
+.sep {
+	padding: 25px;
+}
