@@ -20,9 +20,9 @@
 }
 
 .navbar a:hover {
-	border-radius: 15px;
+	border-radius: 20px;
 	transition-duration: 0.15s;
-	background-color: var(--lightgray);
+	background-color: #474747;
 }
 
 .sep {

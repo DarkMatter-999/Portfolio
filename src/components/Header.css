@@ -1,7 +1,84 @@
 
 .header {
-	width: 100%;
+	width: calc(100% - 60px);
 	background-color: var(--gray); 
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	color: var(--white);
+	padding-right: 60px;
+}
+
+.leftheader {}
+
+.rightheader ul {
+	position: relative;
+	margin: 0;
+	list-style: none;
+}
+
+.rightheader li {
+	display: inline;
+	padding: 10px;
+}
+
+.rightheader li a {
+	text-decoration: none;
+	position: relative;
+}
+
+.rightheader li .active::after {
+	content: "";
+	display: block;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	bottom: -8px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: grow .8s cubic-bezier(0.39, 1.16, 0.64, 1.11);
+}
+
+.rightheader li a:hover::after {
+	content: "";
+	display: block;
+	width: 6px;
+	height: 6px;
+	background-color: #fff;
+	position: absolute;
+	bottom: -8px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	animation: grows .25s linear;
+	border-radius: 0;
+	transform: scaleY(0.25) scaleX(5) translateX(-10%);
+}
+
+@keyframes grow {
+  0% {
+	transform: scaleY(0) scaleX(5) translateX(0%);
+	border-radius: 0;
+  }
+  75% {
+	transform: scaleY(0.5) scaleX(1) translateX(-50%);
+  }
+  100% {
+	transform: scale(1) translateX(-50%);
+	border-radius: 50%;
+  }
+}
+
+@keyframes grows {
+   0% {
+	transform: scale(1) translateX(-50%);
+	border-radius: 50%;
+  }
+
+  100% {
+	transform: scaleY(0.25) scaleX(5) translateX(-10%);
+	border-radius: 0;
+  }
 }
