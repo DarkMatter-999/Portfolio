@@ -1,0 +1,18 @@
+.PcImage {
+	position: relative;
+	width: 100%;
+}
+
+.PcImage .PC {
+	position: relative;
+	/* padding: 50px; */
+	width: 30vw;
+}
+
+.PcImage .Cursor {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 5vw;
+	z-index: 2;
+}

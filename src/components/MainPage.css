@@ -1,0 +1,40 @@
+
+.MainPage {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.section {
+	flex-grow: 1;
+	height: 100%;
+	width: 100%;
+	font-size: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Intro {
+	/* height: 90vh; */
+	display: flex;
+	padding: 10vw;
+	
+}
+
+.introText {
+	display: flex;
+	flex-direction: column;
+}
+
+.introHeading {
+	font-weight: 800;
+	font-size: 3.5rem;
+	line-height: 5rem;
+}
+
+.introSubText {
+	font-size: 1.5rem;
+}
+
+

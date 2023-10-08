@@ -10,4 +10,12 @@
 body {
 	margin: 0px;
 	background-color: var(--black);
+	color: var(--white);
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
