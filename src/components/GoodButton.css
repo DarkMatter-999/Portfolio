@@ -1,0 +1,57 @@
+.GoodButton button {
+    color: var(--purple);
+    background-color: #000;
+    font-size: 16px;
+    border: 0.3em solid var(--purple);
+    border-radius: 0.5em;
+    width: 16em;
+    height: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+}
+
+.GoodButton button span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--purple);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.GoodButton button:hover {
+    color: var(--white);
+}
+
+.GoodButton button:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.GoodButton button span:nth-child(1) {
+    --n: 1;
+}
+
+.GoodButton button span:nth-child(2) {
+    --n: 2;
+}
+
+.GoodButton button span:nth-child(3) {
+    --n: 3;
+}
+
+.GoodButton button span:nth-child(4) {
+    --n: 4;
+}
+

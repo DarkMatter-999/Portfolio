@@ -16,10 +16,38 @@
 }
 
 .Intro {
-	/* height: 90vh; */
 	display: flex;
 	padding: 10vw;
 	
+}
+
+.Bubbles {
+	position: absolute;
+	display: flex;
+	z-index: -99;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.Bubbles span {
+	position: relative;
+	width: 10px;
+	height: 10px;
+	opacity: 0.7;
+	background-color: var(--purple);
+	margin: 0 4px;
+	border-radius: 50%;
+	animation: bubbles 15s linear infinite;
+	animation-duration: calc(120s / var(--i));
+}
+
+
+.Bubbles span:nth-child(3n+1) {
+	background-color: var(--pink);
+}
+
+.Bubbles span:nth-child(3n+2) {
+	background-color: var(--white);
 }
 
 .introText {
@@ -35,6 +63,16 @@
 
 .introSubText {
 	font-size: 1.5rem;
+}
+
+@keyframes bubbles {
+	0% {
+		transform: translateY(100vh) scale(0);
+	}
+
+	100% {
+		transform: translateY(-20vh) scale(1);
+	}
 }
 
 
