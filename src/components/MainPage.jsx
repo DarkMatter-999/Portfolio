@@ -1,5 +1,6 @@
 import React from 'react'
 import GoodButton from "./GoodButton.jsx"
+import Footer from "./Footer.jsx"
 
 import PcImage from "./PcImage.jsx"
 
@@ -39,7 +40,6 @@ const MainPage = () => {
         <span style={{"--i":'18'}}></span>
         <span style={{"--i":'38'}}></span>
         <span style={{"--i":'18'}}></span>
- 
      </div>
       <div className="Intro">
       <PcImage />
@@ -55,7 +55,7 @@ const MainPage = () => {
       </div>
       </section>
         <section className="section">Section 2</section>
-        <section className="section">Section 3</section>
+        <section className="section"><Footer /></section>
     </div> 
   )
 }
