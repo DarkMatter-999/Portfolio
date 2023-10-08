@@ -1,0 +1,18 @@
+.Projects {
+    display: flex;
+    margin: 20px 0;
+    background-color: #3c0e69;
+    border-radius: 20px;
+}
+
+.Projects img {
+    margin: 30px;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+} 
+
+.Projects .text {
+    margin: 30px;
+}

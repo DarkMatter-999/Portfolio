@@ -7,6 +7,10 @@
 	--lightgray: #9C9CBC;
 	--white: #FFFFFF;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	margin: 0px;
 	background-color: var(--black);

@@ -1,6 +1,7 @@
 import React from 'react'
 import GoodButton from "./GoodButton.jsx"
 import Footer from "./Footer.jsx"
+import ProjectSection from "./ProjectSection.jsx"
 
 import PcImage from "./PcImage.jsx"
 
@@ -50,11 +51,11 @@ const MainPage = () => {
         <div className="introSubText">
            I am a passionate and driven Computer Science and Engineering student with a strong foundation in both theory and practical application.
         </div>
-        <GoodButton text="See My Projects" />
+        <GoodButton text="See My Projects" onClickCallback={() => { location.href='#projects';}} />
       </div>
       </div>
       </section>
-        <section className="section">Section 2</section>
+        <section className="section"><ProjectSection /></section>
         <section className="section"><Footer /></section>
     </div> 
   )

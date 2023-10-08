@@ -1,0 +1,8 @@
+.ProjectSection {
+    background-color: #2a1b37;
+    padding: 20px 10vw;
+}
+
+.ProjectSection .Projects:nth-child(even) {
+    flex-direction: row-reverse;
+}
