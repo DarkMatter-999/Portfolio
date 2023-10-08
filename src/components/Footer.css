@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: monospace, monospace;
+    text-transform: uppercase;
 }
 
 .footer ul {
@@ -20,8 +22,8 @@
     padding: 20px;
 }
 
-.footer ul li a {
-    text-decoration: none;
+.footer ul li a:hover {
+    color: #aaa;
 }
 
 

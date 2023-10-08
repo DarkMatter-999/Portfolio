@@ -56,9 +56,11 @@
 }
 
 .introHeading {
+	font-family: raleway,system-ui;
 	font-weight: 800;
 	font-size: 3.5rem;
-	line-height: 5rem;
+	line-height: 3rem;
+	padding: 40px 0;
 }
 
 .introSubText {

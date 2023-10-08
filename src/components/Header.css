@@ -20,6 +20,9 @@
 .rightheader li {
 	display: inline;
 	padding: 10px;
+	font-family: monospace, monospace;
+	text-transform: uppercase;
+	font-weight: 800;
 }
 
 .rightheader li a {
