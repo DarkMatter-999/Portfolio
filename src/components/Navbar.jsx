@@ -7,13 +7,13 @@ import './NavBar.css'
 const Navbar = () => {
   return (
     <div className="navbar">
-        <a href="">
+        <a href="https://github.com/DarkMatter-999">
             <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/darkmatter999">
             <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="">
+        <a href="https://twitter.com/darkmatter_999">
         <FontAwesomeIcon icon={faTwitter} />
         </a>
         <div className="sep"> </div>

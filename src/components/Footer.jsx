@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <footer className="footer">
     <ul>
-      <li><a href="">GitHub</a></li>
-      <li><a href="">Linkedin</a></li>
-      <li><a href="">Twitter</a></li>
-      <li><a href="">LeetCode</a></li>
-      <li><a href="">CodeChef</a></li>
-      <li><a href="">Hackerank</a></li>
+      <li><a href="https://github.com/DarkMatter-999">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/darkmatter999/">Linkedin</a></li>
+      <li><a href="https://twitter.com/darkmatter_999">Twitter</a></li>
+      <li><a href="https://leetcode.com/lakshyajeet">LeetCode</a></li>
+      <li><a href="https://www.codechef.com/users/lakshyajeet">CodeChef</a></li>
+      <li><a href="https://www.hackerrank.com/lakshyajeet">Hackerank</a></li>
     </ul>
       <p>Made with 💖 | &nbsp; LSG 2023</p>
     </footer>

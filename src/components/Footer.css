@@ -22,6 +22,15 @@
     padding: 20px;
 }
 
+.footer ul li a:link, a:visited {
+    color: var(--white);
+}
+
+.footer ul li a {
+    text-decoration-style: dashed;
+    text-decoration-color: var(--lavender);
+}
+
 .footer ul li a:hover {
     color: #aaa;
 }

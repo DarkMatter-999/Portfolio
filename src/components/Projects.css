@@ -16,3 +16,7 @@
 .Projects .text {
     margin: 30px;
 }
+
+.Projects .text p {
+    font-size: 1.5rem;
+}
