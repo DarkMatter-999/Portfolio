@@ -9,6 +9,10 @@
 	padding-right: 60px;
 }
 
+.header a:link, a:visited {
+	color: var(--white);
+}
+
 .leftheader {}
 
 .rightheader ul {
@@ -83,5 +87,15 @@
   100% {
 	transform: scaleY(0.25) scaleX(5) translateX(-10%);
 	border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: calc(100% - 20px);
+    padding: 0 10px;
+  }
+  .rightheader ul li{
+    display: block;
   }
 }

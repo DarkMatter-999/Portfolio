@@ -13,7 +13,7 @@ const Footer = () => {
       <li><a href="https://www.codechef.com/users/lakshyajeet">CodeChef</a></li>
       <li><a href="https://www.hackerrank.com/lakshyajeet">Hackerank</a></li>
     </ul>
-      <p>Made with 💖 | &nbsp; LSG 2023</p>
+      <p>Made with 💜 | LSG 2023</p>
     </footer>
   )
 }

@@ -16,3 +16,9 @@
 	width: 5vw;
 	z-index: 2;
 }
+
+@media (max-width: 768px) {
+  .PcImage .PC {
+    width: 100%;
+  }
+}

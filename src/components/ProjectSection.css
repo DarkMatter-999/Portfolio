@@ -1,8 +1,23 @@
 .ProjectSection {
-    background-color: #2a1b37;
+    background-color: var(--black);
     padding: 20px 10vw;
 }
 
 .ProjectSection .Projects:nth-child(even) {
     flex-direction: row-reverse;
+}
+
+
+@media (max-width: 768px) {
+  .ProjectSection {
+    padding: 20px 10px;
+  }
+
+  .Projects {
+    flex-direction: column-reverse;
+  }
+
+  .ProjectSection .Projects:nth-child(even) {
+    flex-direction: column-reverse;
+  }
 }

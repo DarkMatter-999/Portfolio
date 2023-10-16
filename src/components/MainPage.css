@@ -78,3 +78,8 @@
 }
 
 
+@media (max-width: 768px) {
+  .Intro {
+    flex-direction: column;
+  }
+}

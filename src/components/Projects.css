@@ -20,3 +20,15 @@
 .Projects .text p {
     font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .Projects img {
+    margin: 0;
+    width: calc(100% - 10px);
+    border: 5px solid white;
+  }
+
+  .Projects h3 {
+      margin: 0;
+  }
+}
