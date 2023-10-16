@@ -5,7 +5,7 @@ import GoodButton from "./GoodButton.jsx"
 import "./Projects.css"
 
 const Projects = (props) => {
-  const image = `/src/assets/${props.img}`;
+  const image = `/${props.img}`;
   return (
     <div className="Projects">
       <div className="text">

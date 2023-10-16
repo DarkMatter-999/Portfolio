@@ -1,7 +1,7 @@
 .Projects {
     display: flex;
     margin: 20px 0;
-    background-color: #3c0e69;
+    background-color: var(--gray);
     border-radius: 20px;
 }
 

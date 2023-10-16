@@ -33,6 +33,7 @@
 
 .GoodButton button:hover {
     color: var(--white);
+    text-shadow: 0 0 20px #fff;
 }
 
 .GoodButton button:hover span {
