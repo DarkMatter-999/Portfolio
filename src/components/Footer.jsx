@@ -4,7 +4,7 @@ import "./Footer.css"
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
     <ul>
       <li><a href="https://github.com/DarkMatter-999">GitHub</a></li>
       <li><a href="https://www.linkedin.com/in/darkmatter999/">Linkedin</a></li>
@@ -13,7 +13,7 @@ const Footer = () => {
       <li><a href="https://www.codechef.com/users/lakshyajeet">CodeChef</a></li>
       <li><a href="https://www.hackerrank.com/lakshyajeet">Hackerank</a></li>
     </ul>
-      <p>Made with 💜 | LSG 2023</p>
+      <p>Made with 💜 | LSG {new Date().getFullYear()}</p>
     </footer>
   )
 }

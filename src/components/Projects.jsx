@@ -11,9 +11,11 @@ const Projects = (props) => {
       <div className="text">
         <h3>{props.name}</h3>
         <p>{props.text}</p>
-        <GoodButton text={"See Project"} onClickCallback={() => { location.href=props.url;}} />
       </div>
-        <img src={image} />
+      <div className="Project-img">
+      <img src={image} />
+      <GoodButton text={"See Project"} onClickCallback={() => { location.href=props.url;}} />
+      </div>
       
     </div>
   )

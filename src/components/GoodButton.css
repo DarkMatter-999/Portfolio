@@ -1,6 +1,6 @@
 .GoodButton button {
     color: var(--purple);
-    background-color: #000;
+    background-color: #00000000;
     font-size: 16px;
     border: 0.3em solid var(--purple);
     border-radius: 0.5em;
