@@ -6,6 +6,16 @@
 	--gray: #1C1C1c;
 	--lightgray: #9C9CBC;
 	--white: #FFFFFF;
+	--color-bg1: #0b001c;
+	--color-bg2: #000000;
+	--color1: 20, 63, 143;
+	--color2: 235, 147, 255;
+	--color3: 0, 154, 201;
+	--color4: 194, 60, 176;
+	--color5: 118, 19, 175;
+	--color-interactive: 140, 100, 255;
+	--circle-size: 60%;
+	--blending: hard-light;
 }
 html {
   scroll-behavior: smooth;
