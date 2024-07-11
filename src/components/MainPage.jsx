@@ -46,7 +46,7 @@ const MainPage = () => {
       <PcImage />
       <div className="introText">
         <div className="introHeading">
-          Hello! I am Lakshyajeet.
+          Hello! I am <span className="IntroName">Lakshyajeet</span>.
         </div>
         <div className="introSubText">
            I am a passionate and driven Computer Science and Engineering student with a strong foundation in both theory and practical application.
