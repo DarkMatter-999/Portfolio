@@ -21,6 +21,12 @@
 }
 
 .IntroName {
+	font-family: "Galada", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 6rem;
+	line-height: 7rem;
+
 	background-color:#ff99d5;
 	background-image:
 		radial-gradient(at 22% 62%, hsla(251,64%,64%,1) 0px, transparent 50%),

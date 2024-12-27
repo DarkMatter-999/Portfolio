@@ -41,22 +41,22 @@ const MainPage = () => {
         <span style={{"--i":'18'}}></span>
         <span style={{"--i":'38'}}></span>
         <span style={{"--i":'18'}}></span>
-     </div>
+        </div>
       <div className="Intro">
       <PcImage />
       <div className="introText">
         <div className="introHeading">
-          Hello! I am <span className="IntroName">Lakshyajeet</span>.
+          Hello! I am <br/> <span className="IntroName">Lakshyajeet</span>.
         </div>
         <div className="introSubText">
-           I am a passionate and driven Computer Science and Engineering student with a strong foundation in both theory and practical application.
+          I am a passionate and driven Computer Science and Engineering student with a strong foundation in both theory and practical application.
         </div>
         <GoodButton text="See My Projects" onClickCallback={() => { location.href='#projects';}} />
       </div>
       </div>
       </section>
-        <section className="section"><ProjectSection /></section>
-        <section className="section"><Footer /></section>
+      <section className="section"><ProjectSection /></section>
+      <section className="section"><Footer /></section>
     </div> 
   )
 }

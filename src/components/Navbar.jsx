@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import './NavBar.css'
 
@@ -13,8 +13,8 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/darkmatter999">
             <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://twitter.com/darkmatter_999">
-        <FontAwesomeIcon icon={faTwitter} />
+        <a href="https://x.com/darkmatter_999">
+        <FontAwesomeIcon icon={faXTwitter} />
         </a>
         <div className="sep"> </div>
     </div>

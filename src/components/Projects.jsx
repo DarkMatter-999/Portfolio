@@ -14,7 +14,7 @@ const Projects = (props) => {
         <GoodButton text={"See Project"} onClickCallback={() => { location.href=props.url;}} />
       </div>
       <div className="Project-img">
-      <img src={image} />
+      <img src={image} alt={`${props.name} Screenshot`}/>
       <GoodButton text={"See Project"} onClickCallback={() => { location.href=props.url;}} />
       </div>
       
