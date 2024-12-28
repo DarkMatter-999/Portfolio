@@ -29,6 +29,7 @@ body {
 	padding: 0;
 	height: 100%;
 	font-family: sans-serif;
+	/* cursor: url("pointinghand.svg"), auto; */
 }
 
 body::-webkit-scrollbar {
